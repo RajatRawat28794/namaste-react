@@ -26,7 +26,6 @@
  * </div>
  * 
  */
-
 const parent = React.createElement(
     "div",
     { id: "parent" },
@@ -38,7 +37,6 @@ const parent = React.createElement(
 );
 
 console.log(parent);
-
   const root = ReactDOM.createRoot(document.getElementById("root"));
    root.render(parent);
 
