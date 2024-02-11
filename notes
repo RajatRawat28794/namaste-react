@@ -1,0 +1,47 @@
+A. We need other packages or lib to make reactjs faster.
+npm- is not node package manager.
+1. it manages the package.
+2. its standard repository for all packages.
+
+B.
+ 1. npm init and then follow other steps.
+ 2. package.json will create , is a config file for npm.
+ 3. Why do we need this package.json ?
+ 4. This pacakges are also called dependencies.
+ 5. npm will take of package, which package.
+ 6. Install dependencies.
+ 7. most imp package in our project is bundler.
+ 8. Our whole needs to be compressed, clean done by bundler.
+ 9. webpack, parcel, veet are all bundles.
+ 10. it packages or bundles your app, so that it can shipped to production.
+ 11. create react-app, behind the scene, its use webpack.
+ 12. we will be using parcel webpack.
+ 13. npm install -D parcel
+ 14. There are two type of dependencies which are app can have.
+ 15. one dependencies -> one is dev  and another is normal dependencies.
+ 16. Dev -> it means , requires in development phase
+ 17. normal dependencies -> uses in production.
+ 18. We are installing parcel as Dev dependencies.
+     npm install -D parcel -> thats why D is given 
+ 19. app is skeleton, parcel gives muscles.
+     "^2.11.0" --> ^ is caret --> if new version cames, then it automatically upgraded to new version. 
+
+Imp notes:
+--------------
+ 20. package.lock.json -> keeps the track of every exact version installed and locks it. It's working in local or not working in production.
+ 21. integrity(hash) key in package.json -> to overcome above issues, package.lock.json keeps the hash to very whatever its in machine, its should be deployed same version in production.
+
+ 22. Node modules - contain all the code that we fetch from npm
+     its like database, contain modules which project needs.
+
+23. parcel as project has it own dependencies, those dependencies have own 
+    dependencies and so on .This known as transitive dependencies.
+
+24. Every dependencies in node modules have its own package.json
+
+25. we installed parcel as dependencies, and parcel is also dependent on other projects and   dependencies, maintating all pacakg.json. This is transitive 
+dependencies.
+26. node module -> is collection of dependencies.
+
+If you have package.json or lock.json , you can create your node modules.
+how ? -> just do npm install-> it will re-create node modules for u.

@@ -1,0 +1,23 @@
+{
+  "name": "namaste",
+  "version": "1.0.0",
+  "description": "This is React learning course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajatRawat28794/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Rajat Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajatRawat28794/namaste-react/issues"
+  },
+  "homepage": "https://github.com/RajatRawat28794/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
